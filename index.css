@@ -1,30 +1,41 @@
-.banner{ width: 100%;
-     height: 650px; 
-     background: url(../img/praia.png);
+.banner{ 
+     width: 100%; 
+     height: 650px;
+      background: url(../img/praia.png); 
       background-size: 100%;
        background-position-x: center;
         background-repeat: no-repeat;
+      } 
+      .margin{ 
+          margin-bottom: 0; 
      } 
-     .margin{ 
-        margin-bottom: 0; 
-    } 
-    .paddin{
-         padding-top: 10px;
-          padding-bottom: 10px; 
-        } 
-        .praia1{
-             width: 100%;
-             }
-              .praia1 img{
-                 width: 100%; 
-                } 
-                .link-cofig a{
-                     font-weight: bold; 
-                     background-color: chartreuse;
-                     color:white
-                     padding: 7px;
-                     border-radius: 3px;
-                    }
-                    link-cofig a:hover{
-                        color:red;
-                       }
+.padding{ 
+     padding-top: 10px; 
+     padding-bottom: 10px;
+ } 
+.praia1{ 
+     width: 100%;
+ } 
+ .praia1 img{ 
+     width: 100%;
+ } 
+ .link-cofig a{ 
+     font-weight:bold;
+      background-color: rgb(186, 238, 134); 
+      color: white; padding: 7px;
+       border-radius: 3px; 
+     }
+ .link-cofig a:hover{
+           color: red;
+            background-color: lime; 
+          }
+ .esp-botton{ 
+     margin-bottom: 20px; 
+} 
+@media screen and 
+     (max-widht: 1125px) {
+      body{ 
+     background-color: lightgreen; } 
+.banner{ 
+     height: 200px; } 
+}
